@@ -1,0 +1,7 @@
+// 将 Element Plus 的命名空间从 el 改为 elp
+@forward 'element-plus/theme-chalk/src/mixins/config.scss' with (
+  $namespace: 'elp'
+);
+
+@use 'element-plus/theme-chalk/src/index.scss' as *;
+@use 'element-plus/theme-chalk/src/dark/css-vars.scss' as *;

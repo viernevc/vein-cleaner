@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+capture-*.png
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+coverage/
+fixtures/
+logs/
+secrets/
+*.pfx
+*.p12
+*.pvk

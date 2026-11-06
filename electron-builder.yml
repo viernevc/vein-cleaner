@@ -1,0 +1,39 @@
+appId: com.vein.diskcleaner
+productName: Vein
+copyright: Copyright © 2026 Vein
+
+directories:
+  output: dist
+  buildResources: resources
+
+files:
+  - build/**/*
+  - package.json
+
+asar: true
+asarUnpack:
+  - build/main/**
+
+win:
+  icon: resources/icon.ico
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+  requestedExecutionLevel: asInvoker
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Vein 磁盘清理
+  installerIcon: resources/icon.ico
+  uninstallerIcon: resources/icon.ico
+  artifactName: ${productName}-${version}-setup.${ext}
+
+portable:
+  artifactName: ${productName}-${version}-portable.${ext}

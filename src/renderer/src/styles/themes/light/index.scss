@@ -1,0 +1,28 @@
+/* 浅色主题（默认） */
+:root,
+html[data-theme='light'] {
+  --vein-bg: #f3f6fb;
+  --vein-bg-soft: #e9eff8;
+  --vein-panel: rgba(255, 255, 255, 0.92);
+  --vein-panel-strong: #ffffff;
+  --vein-border: rgba(30, 60, 120, 0.12);
+  --vein-border-strong: rgba(30, 60, 120, 0.22);
+  --vein-text: #17233a;
+  --vein-text-2: #4a5c78;
+  --vein-text-3: #7a8aa3;
+  --vein-accent: #0b8fd6;
+  --vein-accent-2: #4a5ff0;
+  --vein-success: #3ddc97;
+  --vein-warning: #ffb454;
+  --vein-danger: #ff5d73;
+  --vein-shadow: 0 18px 40px rgba(30, 60, 120, 0.14);
+
+  /* Element Plus（elp 命名空间） */
+  --elp-color-primary: #0b8fd6;
+  --elp-color-primary-light-9: rgba(11, 143, 214, 0.1);
+  --elp-text-color-primary: #17233a;
+  --elp-text-color-regular: #4a5c78;
+  --elp-border-color: rgba(30, 60, 120, 0.14);
+  --elp-border-color-light: rgba(30, 60, 120, 0.1);
+  --elp-fill-color-blank: #ffffff;
+}

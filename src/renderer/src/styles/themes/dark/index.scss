@@ -1,0 +1,50 @@
+/* 深色主题 */
+html.dark,
+html[data-theme='dark'] {
+  --vein-bg: #0b0f19;
+  --vein-bg-soft: #0f1626;
+  --vein-panel: rgba(18, 27, 45, 0.82);
+  --vein-panel-strong: #131d31;
+  --vein-border: rgba(120, 170, 255, 0.14);
+  --vein-border-strong: rgba(120, 170, 255, 0.28);
+  --vein-text: #e7eefb;
+  --vein-text-2: #a9b9d3;
+  --vein-text-3: #71839f;
+  --vein-accent: #35d0ff;
+  --vein-accent-2: #6a7bff;
+  --vein-success: #3ddc97;
+  --vein-warning: #ffb454;
+  --vein-danger: #ff5d73;
+  --vein-shadow: 0 18px 48px rgba(0, 0, 0, 0.42);
+
+  /* Element Plus（elp 命名空间） */
+  --elp-bg-color: #0f1626;
+  --elp-bg-color-page: #0b0f19;
+  --elp-bg-color-overlay: #131d31;
+  --elp-fill-color-blank: transparent;
+  --elp-fill-color: rgba(120, 170, 255, 0.06);
+  --elp-fill-color-light: rgba(120, 170, 255, 0.06);
+  --elp-fill-color-lighter: rgba(120, 170, 255, 0.04);
+  --elp-fill-color-dark: rgba(120, 170, 255, 0.1);
+  --elp-border-color: rgba(120, 170, 255, 0.16);
+  --elp-border-color-light: rgba(120, 170, 255, 0.12);
+  --elp-border-color-lighter: rgba(120, 170, 255, 0.08);
+  --elp-border-color-extra-light: rgba(120, 170, 255, 0.06);
+  --elp-text-color-primary: #e7eefb;
+  --elp-text-color-regular: #a9b9d3;
+  --elp-text-color-secondary: #71839f;
+  --elp-text-color-placeholder: #5c6d88;
+  --elp-color-primary: #35d0ff;
+  --elp-color-primary-light-3: #5adcff;
+  --elp-color-primary-light-5: #7ee5ff;
+  --elp-color-primary-light-7: #a3edff;
+  --elp-color-primary-light-8: #b8f1ff;
+  --elp-color-primary-light-9: rgba(53, 208, 255, 0.12);
+  --elp-color-primary-dark-2: #1fb8e6;
+  --elp-color-success: #3ddc97;
+  --elp-color-warning: #ffb454;
+  --elp-color-danger: #ff5d73;
+  --elp-color-error: #ff5d73;
+  --elp-mask-color: rgba(3, 7, 15, 0.72);
+  --elp-box-shadow-light: 0 12px 34px rgba(0, 0, 0, 0.4);
+}
